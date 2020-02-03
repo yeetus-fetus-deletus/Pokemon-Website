@@ -7,8 +7,9 @@
 <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap" rel="stylesheet">
 <style>
 body {
-	font-family: 'Bangers', cursive;
+	font-family: Snap ITC;
 	font-size: 20pt;
+	color: #8D613C;
 	text-align: justify;
 	background-image: url('water.jpg');
 	background-repeat: no-repeat;
@@ -16,18 +17,29 @@ body {
 	background-position: center;
 	}
 
-div {
+div.first {
 	text-align: center;
+	font-family: 'Bangers', cursive;
 	font-size: 30pt;
 	background-color: white;
-	color: #30A8E8;
+	color: dimgray;
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 25px;
-	margin-bottom: 25px;
+	margin-bottom: 50px;
 	padding: 20px;
 	border: 10px solid #30D5E8;
 	border-image: url( ) 100% round;
+	}
+	
+div.second {
+	text-align: left;
+	background-color: #79B0CC;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	padding: 10px;
+	border: 5px solid white;
 	}
 	
 h1 {
@@ -42,14 +54,22 @@ h2 {
 	color: #30E8B8;
 	}
 	
+h3 {
+	font-family: 'Bowlby One SC', cursive;
+	font-size: 40pt;
+	color: #DDDDDD;
+	}
+	
 img {
 	float: right;
 	}
 	
-ul {
-	color: grey;
-	font-size: 30pt;
+li {
+	font-family: 'Bowlby One SC', cursive;
+	font-size: 20pt;
+	color: #74503A;
 	}
+	
 a:link {
 	color: blue;
 	}
@@ -72,7 +92,7 @@ a:hover {
 
 <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed pellentesque blandit cursus. Phasellus condimentum maximus volutpat. In dui odio, rutrum a ante non, tempor elementum purus. Sed eleifend varius vehicula. Aliquam a sodales lacus, sed euismod orci.</p>
 
-<div>
+<div class="first">
 <h2>Subheading 1!</h2>
 
 <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque finibus aliquam odio. Morbi id tristique diam, sit amet semper ex. Nulla tincidunt massa ac urna tristique tempor non vitae lectus. </p>
@@ -82,14 +102,16 @@ a:hover {
 <p>Nam ut dictum erat, vitae feugiat lectus. Donec aliquet imperdiet tempor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum sollicitudin massa at quam auctor, ut egestas lectus convallis.</p>
 </div>
 
-<h2>Subheading 3!</h2>
 <img src="250px-009Blastoise.png">
-
+<h3>Subheading 3!</h3>
 <ul>
+<div class="second">
 	<li>Vestibulum sollicitudin</li>
 	<li>Nam ut dictum</li>
 	<li>Interdum et malesuada</li>
 	<li>Aliquam a sodales</li>
+	</div>
 	</ul>
+	<img src="Pokeball.png">
 </body>
 </html>
